@@ -11,9 +11,51 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
+	<style>
+		.content{
+			margin: auto;
+			text-align: left;
+		}
+		.left{
+			margin: auto;
+			text-align: left;
+		}
+		image{
+			width: 200px;
+			height: 200px;
+			object-fit: fill;
+		}
+		.progress-bar {
+			width: 100%;
+			height: 10px;
+			background-color: #d3d3d3;
+			border-radius: 10em;
+			font-weight: 600;
+			font-size: .8rem;
+		}
+		.progress-bar .progress1 {
+			width: 40%;  
+			height: 10px;
+			padding: 0;
+			text-align: center;
+			background-color: #f08080;
+			border-radius: 10em;
+			color: #111;
+		}
+		.progress-bar .progress2 {
+			width: 50%;  
+			height: 10px;
+			padding: 0;
+			text-align: center;
+			background-color: #4F98FF;
+			border-radius: 10em;
+			color: #111;
+		}
+	</style>
 	<body>
 
 		<!-- Wrapper -->
@@ -25,7 +67,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
+									<a href="index.html" class="logo"></a>
 									<ul class="icons">
 										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -37,54 +79,66 @@
 
 							<!-- Banner -->
 								<section id="banner">
+									<span class="image">
+										<a href="#" class="image"><img src="images/증명사진.jpg" alt="" /></a>
+									</span>
 									<div class="content">
 										<header>
-											<h1>Hi, I’m Ryunwan Kim<br />
-											by HTML5 UP</h1>
-											<p>A free and fully responsive site template</p>
+											<h1 class="left">2년 10개월차<br /> 프론트엔드 개발자<br /></h1>
 										</header>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
-										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul>
+										<p><br />대학에서 컴퓨터 공학을 전공한 후, 조선/해양 산업에서 소프트웨어 개발자로서 활발히 활동하며 개발 역량을 키워왔습니다. 특히, 사용자 중심의 솔루션 개발과 시스템 최적화를 통해 실질적인 성과를 창출해 온 경험을 가지고 있습니다.</p>
 									</div>
-									<span class="image object">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
 								</section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Erat lacinia</h2>
+										<h2 id="Skills">Skills</h2>
 									</header>
+									<div class="content">
+										<p>저는 마린웍스에서 주로 웹 애플리케이션 개발 및 시스템 유지보수 업무를 맡아 왔습니다. <br />
+										이 과정에서 ASP .NET, JavaScript, MS-SQL 등 여러 프로그래밍 언어를 활용해, 운영 안정성을 높이고 시스템 성능 고도화 작업을 진행했습니다.</p>
+									</div>
 									<div class="features">
 										<article>
-											<span class="icon fa-diamond"></span>
+											<!--<span class="icon fa-diamond"></span>-->
+											<span class="material-symbols-outlined" style="font-size: 100px;">web</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>ASP .NET</h3>
+												<div class="progress-bar">           
+													<div class="progress2"></div>
+													<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;50%</p>
+												</div>
 											</div>
 										</article>
 										<article>
-											<span class="icon fa-paper-plane"></span>
+											<span class="material-symbols-outlined" style="font-size: 100px;">database</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>MS-SQL</h3>
+												<div class="progress-bar">           
+													<div class="progress2"></div>
+													<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;50%</p>
+												</div>
 											</div>
 										</article>
 										<article>
-											<span class="icon fa-rocket"></span>
+											<span class="material-symbols-outlined" style="font-size: 100px;">javascript</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>JavaScript</h3>
+												<div class="progress-bar">           
+													<div class="progress1"></div>
+													<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;40%</p>
+												</div>
 											</div>
 										</article>
 										<article>
-											<span class="icon fa-signal"></span>
+											<span class="material-symbols-outlined" style="font-size: 100px;">html</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>HTML5</h3>
+												<div class="progress-bar">           
+													<div class="progress1"></div>
+													<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;40%</p>
+												</div>
 											</div>
 										</article>
 									</div>
@@ -93,56 +147,85 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Ipsum sed dolor</h2>
+										<h2 id="Projects">Projects</h2>
 									</header>
+									<h2>Fleet Master</h2>
 									<div class="posts">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
+											<h3>Introduction</h3>
+											<p>부경대 백경호 선박의  항해 안전과 육상에서의 운영 지원을 위한 솔루션 으로 단절된 본선의 운항 및 작업 환경을 위성 통신망을 통하여 선박과 육상간에 정보의 실시간 공유가 가능한 체계를 지원하는 솔루션</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
+											<h3>Period & Personnel</h3>
+											<p>2021.04 ~ 2022.06 <br /><br /> PM 1명, 본인 1명</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
+											<h3>Detail</h3>
+											<p> 1. 전체 메뉴 중 미구현 된 기능 개발<br/>
+												2. 전체적으로 DB 내 불명확한 데이터로 인한 데이터 수정 및 추가<br/>
+												3. DB 재설계 및 데이터 마이그레이션<br/>
+												4. 쿼리 개선 및 레거시 코드 리팩토링<br/>
+												5. 전체 메뉴 구성 변경 및 내부 로직 변경<br/>
+												6. 그 외 기능 추가 요구사항 구현</p>
+										</article>
+									</div>
+									<h2><br/>Digital Bridge</h2>
+									<div class="posts">
+										<article>
+											<h3>Introduction</h3>
+											<p>국가연구개발사업 디지털 브릿지 과제로 선박의 항해 안전과 육상에서의 운영 지원을 위한 솔루션 으로 단절된 본선의 운항 및 작업 환경을 위성 통신망을 통하여 선박과 육상간에 정보의 실시간 공유가 가능한 체계를 지원하는 솔루션</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
+											<h3>Period & Personnel</h3>
+											<p>2022.12 ~ 2023.01 <br /><br /> PM 1명, 본인 1명</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
+											<h3>Detail</h3>
+											<p> 1. 아키텍쳐 설계, DB 엔티티 마이그레이션<br/>
+												2. 퍼블리싱 디자인 적용 및 내부 로직 구현<br/>
+												3. 데이터 시각화를 위한 대시보드 메뉴 추가<br/>
+												4. 쿼리 구현 및 개선 및 API 응답 속도 개선<br/>
+												5. 그 외 기능 추가 요구사항 구현</p>
+										</article>
+									</div>
+									<h2><br/>Fleet Monitoring</h2>
+									<div class="posts">
+										<article>
+											<h3>Introduction</h3>
+											<p>HMM 선박의 항해 안전과 육상에서의 운영 지원을 위한 솔루션 으로 단절된 본선의 운항 및 작업 환경을 위성 통신망을 통하여 선박과 육상간에 정보의 실시간 공유가 가능한 체계를 지원하는 솔루션</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
+											<h3>Period & Personnel</h3>
+											<p>2023.02 ~ 2023.06 <br /><br /> PM 1명, 본인 1명</p>
+										</article>
+										<article>
+											<h3>Detail</h3>
+											<p> 1. 전체 메뉴 중 미구현 된 기능 개발<br/>
+												2. DB 내 불명확한 데이터로 인한 데이터 수정 및 추가<br/>
+												3. DB 재설계 및 데이터 마이그레이션<br/>
+												4. 쿼리 개선 및 레거시 코드 리팩토링<br/>
+												5. 데이터 시각화 내부 로직 변경 및 매핑 데이터 에러 수정<br/>
+												6. 사용자 로테이션 퍼블리싱 디자인 적용 및 내부 로직 구현<br/>
+												7. 그 외 기능 추가 요구사항 구현 </p>
+										</article>
+									</div>
+								</section>
+								<section>
+									<header class="major">
+										<h2 id="Career">Career</h2>
+									</header>
+									<h2>Marineworks</h2>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/marineworks.jpg" alt="" /></a>
+										</article>
+										<article>
+											<h3>Period</h3>
+											<p>2020.10 ~ 2023.07<br/>(총 2년 10개월)</p>
+										</article>
+										<article>
+											<h3>Introduction</h3>
+											<p>선박과 육상간에 정보의 실시간 공유가 가능한 체계를 지원하는 솔루션 서비스 플랫폼 </p>
 										</article>
 									</div>
 								</section>
@@ -154,12 +237,12 @@
 					<div id="sidebar">
 						<div class="inner">
 
-							<!-- Search -->
+							<!-- Search
 								<section id="search" class="alt">
 									<form method="post" action="#">
 										<input type="text" name="query" id="query" placeholder="Search" />
 									</form>
-								</section>
+								</section> -->
 
 							<!-- Menu -->
 								<nav id="menu">
@@ -168,7 +251,7 @@
 									</header>
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
-										<li><a href="generic.html">Generic</a></li>
+										<!-- <li><a href="generic.html">Generic</a></li>
 										<li><a href="elements.html">Elements</a></li>
 										<li>
 											<span class="opener">Submenu</span>
@@ -189,61 +272,52 @@
 												<li><a href="#">Tempus Magna</a></li>
 												<li><a href="#">Feugiat Veroeros</a></li>
 											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li>
+										</li> -->
+										<li><a href="#Skills" class="scroll_move">Skills</a></li>
+										<li><a href="#Projects" class="scroll_move">Projects</a></li>
+										<li><a href="#Career" class="scroll_move">Career</a></li>
 									</ul>
 								</nav>
 
 							<!-- Section -->
-								<section>
+								<!--<section>
 									<header class="major">
-										<h2>Ante interdum</h2>
+										<h2>Career</h2>
 									</header>
+									<ul class="contact">
+										<h2>Mirneworks</h2>
+										<a href="#" class="image"><img src="images/marineworks.jpg" alt="" /></a>
+										<p>2020.10 ~ 2023.07(2년 10개월)</p>
+									</ul>
 									<div class="mini-posts">
 										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+											<a href="#" class="image"><img src="images/marineworks.jpg" alt="" /></a>
+											<p>2020.10 ~ 2023.07(2년 10개월)</p>
 										</article>
 									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
+								</section>-->
 
 							<!-- Section -->
 								<section>
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 									<ul class="contact">
-										<li class="fa-envelope-o"><a href="#">information@untitled.tld</a></li>
-										<li class="fa-phone">(000) 000-0000</li>
-										<li class="fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
+										<li class="fa-envelope-o">tkdjzpa@naver.com</li>
+										<li class="fa-phone">010 - 2792 - 4864</li>
+										<li class="fa-home">부산광역시 낙동대로 318<br /></li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
+								<!-- <footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved.</p>
+								</footer> -->
 
 						</div>
 					</div>
 
 			</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
